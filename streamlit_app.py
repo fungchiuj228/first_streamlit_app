@@ -47,3 +47,7 @@ fruit_choice_add = streamlit.text_input('What fruit would you like to add?','jac
 streamlit.write('Thanks for adding ', fruit_choice_add)
 
 
+#This will not work correctly, but just go with it for now
+my_cur.execute("insert into pc_rivery_db.public.fruit_load_list values ('from streamlit')");
+
+
